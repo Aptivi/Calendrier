@@ -81,7 +81,7 @@ span.typeparamref {
     font-style: italic;
 }
 span.languagekeyword{
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .hljs {
@@ -121,7 +121,7 @@ h3,
 .h3 {
   margin-top: 15px;
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: normal;
 }
 h4,
 .h4,
@@ -209,7 +209,7 @@ article h1, article h2, article h3, article h4{
 
 article h4{
   border: 0;
-  font-weight: bold;
+  font-weight: normal;
   margin-top: 2em;
 }
 
@@ -467,7 +467,7 @@ body .toc{
   margin-top: -4px;
 }
 .sidetoc-heading {
-  font-weight: 500;
+  font-weight: normal;
 }
 
 .toc {
@@ -477,10 +477,10 @@ body .toc{
 .expand-stub {
   position: absolute;
   left: -10px;
-  font-weight: bold;
+  font-weight: normal;
 }
 .expand-stub + a {
-  font-weight: bold;
+  font-weight: normal;
 }
 .toc .nav > li > a.sidetoc-expand {
   position: absolute;
@@ -539,7 +539,7 @@ a:hover, a:focus,
 }
 
 .toc .level1 > li {
-  font-weight: bold;
+  font-weight: normal;
   margin-top: 10px;
   position: relative;
   font-size: 16px;
@@ -650,7 +650,7 @@ pre {
 }
 .sideaffix > div.contribution > ul > li > a.contribution-link {
   padding: 6px 10px;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
 }
 .sideaffix > div.contribution > ul > li > a.contribution-link:hover {
@@ -661,7 +661,7 @@ pre {
   background: none;
 }
 .affix h5 {
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
   padding-left: 10px;
   font-size: 12px;
@@ -699,7 +699,7 @@ pre {
 .affix > ul > li.active > a,
 .affix > ul > li.active > a:before {
   color: var(--apt-accent-shade-3);
-  font-weight: bold;
+  font-weight: normal;
 }
 .affix ul ul > li > a {
   padding: 2px 15px;
@@ -909,7 +909,7 @@ pre > code .line-highlight {
 /* Alerts */
 .alert h5 {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: normal;
     margin-top: 0;
 }
 
@@ -1028,7 +1028,7 @@ div.embeddedvideo iframe {
 
 /* Major sections, increase visibility **/
 #fields, #properties, #methods, #events {
-    font-weight: bold;
+    font-weight: normal;
     margin-top: 2em;
 }
 
