@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyTitle>Calendrier</AssemblyTitle>
+    <AssemblyDescription>Calendar Tools</AssemblyDescription>
+    <Description>Calendaring library that allows you to specify calendars more easily using just the culture and the calendar.</Description>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Calendrier</AssemblyName>
+    <PackageId>Calendrier</PackageId>
+    <PackageTags>calendar;calendars;library;csharp</PackageTags>
+    <PackageProjectUrl>https://github.com/Aptivi/Calendrier</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Aptivi/Calendrier</RepositoryUrl>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageIcon>OfficialAppIcon-Calendrier-512.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\assets\OfficialAppIcon-Calendrier-512.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

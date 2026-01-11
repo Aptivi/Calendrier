@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Assets/">
+    <File Path="CHANGES" />
+    <File Path="CHANGES.TITLE" />
+    <File Path="Directory.Build.props" />
+  </Folder>
+  <Folder Name="/Private/">
+    <Project Path="private/BuildTargets/BuildTargets.csproj" />
+    <Project Path="private/Calendrier.Tests/Calendrier.Tests.csproj" Id="b06ed1b9-3288-417e-98bc-eda9f5b3636f" />
+  </Folder>
+  <Folder Name="/Public/">
+    <Project Path="public/Calendrier/Calendrier.csproj" />
+  </Folder>
+</Solution>
