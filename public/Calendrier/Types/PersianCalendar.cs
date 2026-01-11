@@ -18,7 +18,6 @@
 //
 
 using System.Globalization;
-using Calendrier;
 
 namespace Calendrier.Types
 {

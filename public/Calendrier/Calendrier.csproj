@@ -26,4 +26,8 @@
     <None Include="..\..\assets\OfficialAppIcon-Calendrier-512.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SpecProbe.Software" Version="3.8.0" />
+  </ItemGroup>
+
 </Project>

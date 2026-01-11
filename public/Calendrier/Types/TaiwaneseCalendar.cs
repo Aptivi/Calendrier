@@ -18,7 +18,6 @@
 //
 
 using System.Globalization;
-using Calendrier;
 using DtfCalendar = System.Globalization.TaiwanCalendar;
 
 namespace Calendrier.Types

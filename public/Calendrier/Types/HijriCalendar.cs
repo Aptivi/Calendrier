@@ -18,6 +18,7 @@
 //
 
 using System.Globalization;
+using SpecProbe.Software.Platform;
 using DtfCalendar = System.Globalization.HijriCalendar;
 
 namespace Calendrier.Types
@@ -36,9 +37,14 @@ namespace Calendrier.Types
         {
             get
             {
-                var Cult = new CultureInfo("ar");
-                Cult.DateTimeFormat.Calendar = new DtfCalendar();
-                return Cult;
+                if (PlatformHelper.IsRunningFromMono())
+                    return new("ar-SA");
+                else
+                {
+                    var Cult = new CultureInfo("ar");
+                    Cult.DateTimeFormat.Calendar = new DtfCalendar();
+                    return Cult;
+                }
             }
         }
     }
