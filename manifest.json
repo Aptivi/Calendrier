@@ -1,0 +1,268 @@
+{
+  "sitemap": {
+    "baseUrl": "https://aptivi.github.io/Colorimetry/"
+  },
+  "source_base_path": "/home/runner/work/Calendrier/Calendrier/DocGen",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.BaseCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.BaseCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.BaseCalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.BaseCalendar.yml\" sourcestartlinenumber=\"1\">System calendar class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.CalendarTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.CalendarTools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.CalendarTools",
+      "Summary": "<p sourcefile=\"api/Calendrier.CalendarTools.yml\" sourcestartlinenumber=\"1\">Calendar tools</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.CalendarTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.CalendarTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.CalendarTypes",
+      "Summary": "<p sourcefile=\"api/Calendrier.CalendarTypes.yml\" sourcestartlinenumber=\"1\">Calendar types</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.ICalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.ICalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.ICalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.ICalendar.yml\" sourcestartlinenumber=\"1\">Calendar interface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.Types.ChineseCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.Types.ChineseCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.Types.ChineseCalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.Types.ChineseCalendar.yml\" sourcestartlinenumber=\"1\">Chinese calendar</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.Types.GregorianCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.Types.GregorianCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.Types.GregorianCalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.Types.GregorianCalendar.yml\" sourcestartlinenumber=\"1\">Standard calendar</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.Types.HijriCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.Types.HijriCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.Types.HijriCalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.Types.HijriCalendar.yml\" sourcestartlinenumber=\"1\">Hijri calendar</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.Types.JapaneseCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.Types.JapaneseCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.Types.JapaneseCalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.Types.JapaneseCalendar.yml\" sourcestartlinenumber=\"1\">Japanese calendar</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.Types.PersianCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.Types.PersianCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.Types.PersianCalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.Types.PersianCalendar.yml\" sourcestartlinenumber=\"1\">Persian calendar (Iran)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.Types.SaudiHijriCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.Types.SaudiHijriCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.Types.SaudiHijriCalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.Types.SaudiHijriCalendar.yml\" sourcestartlinenumber=\"1\">Hijri calendar (Saudi Arabia)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.Types.TaiwaneseCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.Types.TaiwaneseCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.Types.TaiwaneseCalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.Types.TaiwaneseCalendar.yml\" sourcestartlinenumber=\"1\">Taiwanese calendar</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.Types.ThaiBuddhistCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.Types.ThaiBuddhistCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.Types.ThaiBuddhistCalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.Types.ThaiBuddhistCalendar.yml\" sourcestartlinenumber=\"1\">Thai Buddhist calendar</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.Types.VariantCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.Types.VariantCalendar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.Types.VariantCalendar",
+      "Summary": "<p sourcefile=\"api/Calendrier.Types.VariantCalendar.yml\" sourcestartlinenumber=\"1\">Variant calendar (dynamic)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.Types.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier.Types",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Calendrier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Calendrier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Calendrier",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
