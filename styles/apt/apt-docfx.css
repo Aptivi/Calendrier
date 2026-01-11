@@ -493,9 +493,10 @@ body .toc{
   display: block;
   padding: 0;
 }
+a:hover, a:focus,
 .toc .nav > li > a:hover,
 .toc .nav > li > a:focus {
-  color: var(--apt-accent-back);
+  color: var(--apt-accent-2);
   background: none;
   text-decoration: inherit;
 }
@@ -680,7 +681,7 @@ pre {
 }
 .affix ul > li.active > a,
 .affix ul > li.active > a:before {
-  color: var(--apt-accent-shade-3);
+  color: var(--apt-accent-2);
 }
 .affix ul > li > a {
   padding: 5px 12px;

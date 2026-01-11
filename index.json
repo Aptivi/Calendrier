@@ -1,82 +1,82 @@
 {
   "api/Calendrier.BaseCalendar.html": {
     "href": "api/Calendrier.BaseCalendar.html",
-    "title": "Class BaseCalendar | Colorimetry API - Aptivi",
+    "title": "Class BaseCalendar | Calendrier API - Aptivi",
     "summary": "Class BaseCalendar System calendar class Inheritance object BaseCalendar ChineseCalendar GregorianCalendar HijriCalendar JapaneseCalendar PersianCalendar SaudiHijriCalendar TaiwaneseCalendar ThaiBuddhistCalendar VariantCalendar Implements ICalendar Namespace: Calendrier Assembly: Calendrier.dll Syntax public abstract class BaseCalendar : ICalendar Properties | Edit this page View Source Calendar Calendar information class associated with this calendar instance (for direct access) Declaration public virtual Calendar Calendar { get; } Property Value Type Description Calendar | Edit this page View Source Culture Culture information class associated with the calendar Declaration public virtual CultureInfo Culture { get; } Property Value Type Description CultureInfo | Edit this page View Source Name Calendar name Declaration public virtual string Name { get; } Property Value Type Description string Implements ICalendar"
   },
   "api/Calendrier.CalendarTools.html": {
     "href": "api/Calendrier.CalendarTools.html",
-    "title": "Class CalendarTools | Colorimetry API - Aptivi",
+    "title": "Class CalendarTools | Calendrier API - Aptivi",
     "summary": "Class CalendarTools Calendar tools Inheritance object CalendarTools Namespace: Calendrier Assembly: Calendrier.dll Syntax public static class CalendarTools Methods | Edit this page View Source GetCalendar(CalendarTypes) Gets a calendar Declaration public static BaseCalendar GetCalendar(CalendarTypes type) Parameters Type Name Description CalendarTypes type Calendar type to get a calendar from Returns Type Description BaseCalendar An instance of BaseCalendar if found. Otherwise, null. | Edit this page View Source GetCalendar(string) Gets a calendar Declaration public static BaseCalendar GetCalendar(string typeName) Parameters Type Name Description string typeName Type name to look up Returns Type Description BaseCalendar An instance of BaseCalendar if found. Otherwise, null. | Edit this page View Source GetCalendarTypeFromName(string) Gets a calendar type from the calendar type name Declaration public static CalendarTypes GetCalendarTypeFromName(string typeName) Parameters Type Name Description string typeName Type name to look up Returns Type Description CalendarTypes The resulting value of CalendarTypes"
   },
   "api/Calendrier.CalendarTypes.html": {
     "href": "api/Calendrier.CalendarTypes.html",
-    "title": "Enum CalendarTypes | Colorimetry API - Aptivi",
+    "title": "Enum CalendarTypes | Calendrier API - Aptivi",
     "summary": "Enum CalendarTypes Calendar types Namespace: Calendrier Assembly: Calendrier.dll Syntax public enum CalendarTypes Fields Name Description Chinese The Chinese calendar (zh-CN culture) Gregorian The Gregorian calendar (en-US culture) Hijri The Hijri calendar (ar culture) Japanese The Japanese calendar (ja-JP culture) Persian The Persian calendar (fa culture) SaudiHijri The Saudi-Hijri calendar (ar-SA culture) Taiwanese The Taiwanese calendar (zh-TW culture) ThaiBuddhist The Thai-Buddhist calendar (th-TH culture) Variant Variant calendar that adapts to the current culture"
   },
   "api/Calendrier.ICalendar.html": {
     "href": "api/Calendrier.ICalendar.html",
-    "title": "Interface ICalendar | Colorimetry API - Aptivi",
+    "title": "Interface ICalendar | Calendrier API - Aptivi",
     "summary": "Interface ICalendar Calendar interface Namespace: Calendrier Assembly: Calendrier.dll Syntax public interface ICalendar Properties | Edit this page View Source Calendar Calendar information class associated with this calendar instance (for direct access) Declaration Calendar Calendar { get; } Property Value Type Description Calendar | Edit this page View Source Culture Culture information class associated with the calendar Declaration CultureInfo Culture { get; } Property Value Type Description CultureInfo | Edit this page View Source Name Calendar name Declaration string Name { get; } Property Value Type Description string"
   },
   "api/Calendrier.Types.ChineseCalendar.html": {
     "href": "api/Calendrier.Types.ChineseCalendar.html",
-    "title": "Class ChineseCalendar | Colorimetry API - Aptivi",
+    "title": "Class ChineseCalendar | Calendrier API - Aptivi",
     "summary": "Class ChineseCalendar Chinese calendar Inheritance object BaseCalendar ChineseCalendar Implements ICalendar Inherited Members BaseCalendar.Calendar Namespace: Calendrier.Types Assembly: Calendrier.dll Syntax public class ChineseCalendar : BaseCalendar, ICalendar Properties | Edit this page View Source Culture Culture information class associated with the calendar Declaration public override CultureInfo Culture { get; } Property Value Type Description CultureInfo Overrides BaseCalendar.Culture | Edit this page View Source Name Calendar name Declaration public override string Name { get; } Property Value Type Description string Overrides BaseCalendar.Name Implements ICalendar"
   },
   "api/Calendrier.Types.GregorianCalendar.html": {
     "href": "api/Calendrier.Types.GregorianCalendar.html",
-    "title": "Class GregorianCalendar | Colorimetry API - Aptivi",
+    "title": "Class GregorianCalendar | Calendrier API - Aptivi",
     "summary": "Class GregorianCalendar Standard calendar Inheritance object BaseCalendar GregorianCalendar Implements ICalendar Inherited Members BaseCalendar.Name BaseCalendar.Culture BaseCalendar.Calendar Namespace: Calendrier.Types Assembly: Calendrier.dll Syntax public class GregorianCalendar : BaseCalendar, ICalendar Implements ICalendar"
   },
   "api/Calendrier.Types.HijriCalendar.html": {
     "href": "api/Calendrier.Types.HijriCalendar.html",
-    "title": "Class HijriCalendar | Colorimetry API - Aptivi",
+    "title": "Class HijriCalendar | Calendrier API - Aptivi",
     "summary": "Class HijriCalendar Hijri calendar Inheritance object BaseCalendar HijriCalendar Implements ICalendar Inherited Members BaseCalendar.Calendar Namespace: Calendrier.Types Assembly: Calendrier.dll Syntax public class HijriCalendar : BaseCalendar, ICalendar Properties | Edit this page View Source Culture Culture information class associated with the calendar Declaration public override CultureInfo Culture { get; } Property Value Type Description CultureInfo Overrides BaseCalendar.Culture | Edit this page View Source Name Calendar name Declaration public override string Name { get; } Property Value Type Description string Overrides BaseCalendar.Name Implements ICalendar"
   },
   "api/Calendrier.Types.JapaneseCalendar.html": {
     "href": "api/Calendrier.Types.JapaneseCalendar.html",
-    "title": "Class JapaneseCalendar | Colorimetry API - Aptivi",
+    "title": "Class JapaneseCalendar | Calendrier API - Aptivi",
     "summary": "Class JapaneseCalendar Japanese calendar Inheritance object BaseCalendar JapaneseCalendar Implements ICalendar Inherited Members BaseCalendar.Calendar Namespace: Calendrier.Types Assembly: Calendrier.dll Syntax public class JapaneseCalendar : BaseCalendar, ICalendar Properties | Edit this page View Source Culture Culture information class associated with the calendar Declaration public override CultureInfo Culture { get; } Property Value Type Description CultureInfo Overrides BaseCalendar.Culture | Edit this page View Source Name Calendar name Declaration public override string Name { get; } Property Value Type Description string Overrides BaseCalendar.Name Implements ICalendar"
   },
   "api/Calendrier.Types.PersianCalendar.html": {
     "href": "api/Calendrier.Types.PersianCalendar.html",
-    "title": "Class PersianCalendar | Colorimetry API - Aptivi",
+    "title": "Class PersianCalendar | Calendrier API - Aptivi",
     "summary": "Class PersianCalendar Persian calendar (Iran) Inheritance object BaseCalendar PersianCalendar Implements ICalendar Inherited Members BaseCalendar.Calendar Namespace: Calendrier.Types Assembly: Calendrier.dll Syntax public class PersianCalendar : BaseCalendar, ICalendar Properties | Edit this page View Source Culture Culture information class associated with the calendar Declaration public override CultureInfo Culture { get; } Property Value Type Description CultureInfo Overrides BaseCalendar.Culture | Edit this page View Source Name Calendar name Declaration public override string Name { get; } Property Value Type Description string Overrides BaseCalendar.Name Implements ICalendar"
   },
   "api/Calendrier.Types.SaudiHijriCalendar.html": {
     "href": "api/Calendrier.Types.SaudiHijriCalendar.html",
-    "title": "Class SaudiHijriCalendar | Colorimetry API - Aptivi",
+    "title": "Class SaudiHijriCalendar | Calendrier API - Aptivi",
     "summary": "Class SaudiHijriCalendar Hijri calendar (Saudi Arabia) Inheritance object BaseCalendar SaudiHijriCalendar Implements ICalendar Inherited Members BaseCalendar.Calendar Namespace: Calendrier.Types Assembly: Calendrier.dll Syntax public class SaudiHijriCalendar : BaseCalendar, ICalendar Properties | Edit this page View Source Culture Culture information class associated with the calendar Declaration public override CultureInfo Culture { get; } Property Value Type Description CultureInfo Overrides BaseCalendar.Culture | Edit this page View Source Name Calendar name Declaration public override string Name { get; } Property Value Type Description string Overrides BaseCalendar.Name Implements ICalendar"
   },
   "api/Calendrier.Types.TaiwaneseCalendar.html": {
     "href": "api/Calendrier.Types.TaiwaneseCalendar.html",
-    "title": "Class TaiwaneseCalendar | Colorimetry API - Aptivi",
+    "title": "Class TaiwaneseCalendar | Calendrier API - Aptivi",
     "summary": "Class TaiwaneseCalendar Taiwanese calendar Inheritance object BaseCalendar TaiwaneseCalendar Implements ICalendar Inherited Members BaseCalendar.Calendar Namespace: Calendrier.Types Assembly: Calendrier.dll Syntax public class TaiwaneseCalendar : BaseCalendar, ICalendar Properties | Edit this page View Source Culture Culture information class associated with the calendar Declaration public override CultureInfo Culture { get; } Property Value Type Description CultureInfo Overrides BaseCalendar.Culture | Edit this page View Source Name Calendar name Declaration public override string Name { get; } Property Value Type Description string Overrides BaseCalendar.Name Implements ICalendar"
   },
   "api/Calendrier.Types.ThaiBuddhistCalendar.html": {
     "href": "api/Calendrier.Types.ThaiBuddhistCalendar.html",
-    "title": "Class ThaiBuddhistCalendar | Colorimetry API - Aptivi",
+    "title": "Class ThaiBuddhistCalendar | Calendrier API - Aptivi",
     "summary": "Class ThaiBuddhistCalendar Thai Buddhist calendar Inheritance object BaseCalendar ThaiBuddhistCalendar Implements ICalendar Inherited Members BaseCalendar.Calendar Namespace: Calendrier.Types Assembly: Calendrier.dll Syntax public class ThaiBuddhistCalendar : BaseCalendar, ICalendar Properties | Edit this page View Source Culture Culture information class associated with the calendar Declaration public override CultureInfo Culture { get; } Property Value Type Description CultureInfo Overrides BaseCalendar.Culture | Edit this page View Source Name Calendar name Declaration public override string Name { get; } Property Value Type Description string Overrides BaseCalendar.Name Implements ICalendar"
   },
   "api/Calendrier.Types.VariantCalendar.html": {
     "href": "api/Calendrier.Types.VariantCalendar.html",
-    "title": "Class VariantCalendar | Colorimetry API - Aptivi",
+    "title": "Class VariantCalendar | Calendrier API - Aptivi",
     "summary": "Class VariantCalendar Variant calendar (dynamic) Inheritance object BaseCalendar VariantCalendar Implements ICalendar Inherited Members BaseCalendar.Calendar Namespace: Calendrier.Types Assembly: Calendrier.dll Syntax public class VariantCalendar : BaseCalendar, ICalendar Properties | Edit this page View Source Culture Culture information class associated with the calendar Declaration public override CultureInfo Culture { get; } Property Value Type Description CultureInfo Overrides BaseCalendar.Culture | Edit this page View Source Name Calendar name Declaration public override string Name { get; } Property Value Type Description string Overrides BaseCalendar.Name Implements ICalendar"
   },
   "api/Calendrier.Types.html": {
     "href": "api/Calendrier.Types.html",
-    "title": "Namespace Calendrier.Types | Colorimetry API - Aptivi",
+    "title": "Namespace Calendrier.Types | Calendrier API - Aptivi",
     "summary": "Namespace Calendrier.Types Classes ChineseCalendar Chinese calendar GregorianCalendar Standard calendar HijriCalendar Hijri calendar JapaneseCalendar Japanese calendar PersianCalendar Persian calendar (Iran) SaudiHijriCalendar Hijri calendar (Saudi Arabia) TaiwaneseCalendar Taiwanese calendar ThaiBuddhistCalendar Thai Buddhist calendar VariantCalendar Variant calendar (dynamic)"
   },
   "api/Calendrier.html": {
     "href": "api/Calendrier.html",
-    "title": "Namespace Calendrier | Colorimetry API - Aptivi",
+    "title": "Namespace Calendrier | Calendrier API - Aptivi",
     "summary": "Namespace Calendrier Classes BaseCalendar System calendar class CalendarTools Calendar tools Interfaces ICalendar Calendar interface Enums CalendarTypes Calendar types"
   },
   "index.html": {
     "href": "index.html",
-    "title": "| Colorimetry API - Aptivi",
+    "title": "| Calendrier API - Aptivi",
     "summary": "What is this web page? This webpage is an API documentation for developers to be used as reference. It constantly gets updated as we push new versions and new APIs, as well as updated documentation. If your IDE supports Intellisense, you don't need to open this web page. If you still intend to use a documentation specific to your preferred version, you may refer to the releases page of the project and download the attached <version>-doc.zip file. To get started using the documentation, select API Documentation from the top menu and select a namespace to get a clear overview of the API. Feedback If you wish to leave feedback to us about this API reference website, use the issue tracker of the project. If you wish to contribute to the documentation of the API, go to the project source code and make your improvements there on a draft Pull Request; we don't support override files that are made by clicking on Improve this doc. Any meaningful contributions are welcome, as long as they follow the code on conduct and contribution guidelines."
   }
 }
