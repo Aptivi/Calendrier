@@ -34,7 +34,7 @@
         ],
         "dest": "../docs",
         "globalMetadata": {
-            "_appTitle": "Colorimetry API - Aptivi",
+            "_appTitle": "Calendrier API - Aptivi",
             "_enableSearch": true
         },
         "globalMetadataFiles": [],
@@ -47,7 +47,7 @@
         "cleanupCacheHistory": false,
         "disableGitFeatures": false,
         "sitemap": {
-            "baseUrl": "https://aptivi.github.io/Colorimetry/"
+            "baseUrl": "https://aptivi.github.io/Calendrier/"
         }
     }
 }
