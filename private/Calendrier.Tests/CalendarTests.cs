@@ -56,7 +56,7 @@ namespace Calendrier.Tests
             var calendar = CalendarTools.GetCalendar(calendarName);
             calendar.GetType().Name.ShouldBe(expectedCalendarNameType);
             calendar.Culture.Name.ShouldBe(expectedCulture == "ar" && PlatformHelper.IsRunningFromMono() ? "ar-SA" : expectedCulture);
-            calendar.Calendar.GetType().Name.ShouldBe(expectedCalendarType);
+            calendar.Calendar.GetType().Name.ShouldBe(expectedCalendarType == "HijriCalendar" && PlatformHelper.IsRunningFromMono() ? "UmAlQuraCalendar" : expectedCalendarType);
         }
 
         [TestMethod]
@@ -88,7 +88,7 @@ namespace Calendrier.Tests
             var calendar = CalendarTools.GetCalendar(calendarName);
             calendar.GetType().Name.ShouldBe(expectedCalendarNameType);
             calendar.Culture.Name.ShouldBe(expectedCulture == "ar" && PlatformHelper.IsRunningFromMono() ? "ar-SA" : expectedCulture);
-            calendar.Calendar.GetType().Name.ShouldBe(expectedCalendarType);
+            calendar.Calendar.GetType().Name.ShouldBe(expectedCalendarType == "HijriCalendar" && PlatformHelper.IsRunningFromMono() ? "UmAlQuraCalendar" : expectedCalendarType);
         }
 
         [TestMethod]
