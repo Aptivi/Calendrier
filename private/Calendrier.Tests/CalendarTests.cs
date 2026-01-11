@@ -20,6 +20,7 @@
 using Calendrier.Types;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
+using SpecProbe.Software.Platform;
 
 namespace Calendrier.Tests
 {
@@ -54,7 +55,7 @@ namespace Calendrier.Tests
         {
             var calendar = CalendarTools.GetCalendar(calendarName);
             calendar.GetType().Name.ShouldBe(expectedCalendarNameType);
-            calendar.Culture.Name.ShouldBe(expectedCulture);
+            calendar.Culture.Name.ShouldBe(expectedCulture == "ar" && PlatformHelper.IsRunningFromMono() ? "ar-SA" : expectedCulture);
             calendar.Calendar.GetType().Name.ShouldBe(expectedCalendarType);
         }
 
@@ -86,7 +87,7 @@ namespace Calendrier.Tests
         {
             var calendar = CalendarTools.GetCalendar(calendarName);
             calendar.GetType().Name.ShouldBe(expectedCalendarNameType);
-            calendar.Culture.Name.ShouldBe(expectedCulture);
+            calendar.Culture.Name.ShouldBe(expectedCulture == "ar" && PlatformHelper.IsRunningFromMono() ? "ar-SA" : expectedCulture);
             calendar.Calendar.GetType().Name.ShouldBe(expectedCalendarType);
         }
 
