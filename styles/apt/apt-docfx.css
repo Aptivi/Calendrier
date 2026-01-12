@@ -134,9 +134,7 @@ h6,
 }
 .apt-head {
   margin-bottom: 0;
-  background-color: transparent;
   border: none;
-  backdrop-filter: blur(8px);
 }
 .navbar {
   margin-bottom: 0;
